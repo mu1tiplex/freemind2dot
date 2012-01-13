@@ -1,0 +1,31 @@
+
+    digraph export { 
+    ID_478820803 [label="Converting Freemind to Omnigraffle"]; 
+        ID_1275403636 [label="direct export"]; 
+        ID_222087364 [label="not via text"]; 
+        ID_37871273 [label="not via html"]; 
+        ID_348595389 [label="not via anything"]; 
+        ID_108985482 [label="via supported importer"]; 
+        ID_1679504492 [label="none found"]; 
+        ID_1730046653 [label="maybe OmniOutliner"]; 
+        ID_1573594178 [label="no dice"]; 
+        ID_800601001 [label="write own converter"]; 
+        ID_538413838 [label="XSL ???"]; 
+        ID_1341545522 [label="learn xsl"]; 
+        ID_1240445174 [label="write simple script"]; 
+        ID_922972562 [label="not that easy"]; 
+        ID_478820803 -> ID_1275403636 ;
+        ID_1275403636 -> ID_222087364 ;
+        ID_1275403636 -> ID_37871273 ;
+        ID_1275403636 -> ID_348595389 ;
+        ID_478820803 -> ID_108985482 ;
+        ID_108985482 -> ID_1679504492 ;
+        ID_108985482 -> ID_1730046653 ;
+        ID_1730046653 -> ID_1573594178 ;
+        ID_478820803 -> ID_800601001 ;
+        ID_800601001 -> ID_538413838 ;
+        ID_538413838 -> ID_1341545522 ;
+        ID_538413838 -> ID_1240445174 ;
+        ID_800601001 -> ID_922972562 ;
+        
+    }
