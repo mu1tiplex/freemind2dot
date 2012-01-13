@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <xsl:value-of select="@ID"/> [label="<xsl:value-of select="@TEXT"/>"]; 
         <xsl:choose>    
             <xsl:when test="not(node())">
-                
+                <!-- do nothing !-->
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates select="node" mode="labels"/>
